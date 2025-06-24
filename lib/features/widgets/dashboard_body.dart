@@ -12,7 +12,7 @@ class DashboardBody extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Custombutton(
+          CustomButton(
             onTap: () {
               Navigator.push(context, CupertinoPageRoute(
                   builder: (context) => const AddProductView( )),);

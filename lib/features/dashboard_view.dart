@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../core/widgets/colors.dart';
 import 'widgets/dashboard_body.dart';
 
 class DashboardView extends StatelessWidget {
@@ -7,7 +8,7 @@ class DashboardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: background,
       body: DashboardBody(),
 
     );
